@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  
+  #myDropdown {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #444;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  
+  #myDropdown:hover {
+    background-color: #e6e6e6;
+  }
+  
+  
+  #myDropdown:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  }
+  
+  
+  #myDropdown option {
+    font-size: 16px;
+    background-color: #f2f2f2;
+    color: #444;
+  }
+  
+  
+  #programDisplay {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  #programDisplay pre {
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
