@@ -8,28 +8,28 @@ dropdown.addEventListener("change", function() {
 
   switch (selectedOption) {
     case "1":
-      window.location.href="../index.html";
+      window.location.href="primer_punto/index.html";
     break;
     case "2":
-      program = "Programa 2:\n\nvar x = 5;\nvar y = 10;\nconsole.log(x + y);";
+        window.location.href="segundo_punto/index.html";
       break;
     case "3":
-      program = "Programa 3:\n\nfunction suma(x, y) {\n  return x + y;\n}\n\nconsole.log(suma(3, 5));";
+        window.location.href="tercer_punto/index.html";
       break;
     case "4":
-      program = "Programa 4:\n\nvar nombre = 'Juan';\nconsole.log('Hola, ' + nombre + '!');";
+        window.location.href="cuarto_punto/index.html";
       break;
     case "5":
-      program = "Programa 5:\n\nfor (var i = 1; i <= 10; i++) {\n  console.log(i);\n}";
+        window.location.href="quinto_punto/index.html";
       break;
     case "6":
-      program = "Programa 6:\n\nvar numeros = [3, 7, 2, 8, 1, 5];\n\nfor (var i = 0; i < numeros.length; i++) {\n  console.log(numeros[i]);\n}";
+        window.location.href="sexto_punto/index.html";
       break;
     case "7":
-      program = "Programa 7:\n\nvar x = 5;\nvar y = 10;\n\nif (x > y) {\n  console.log('x es mayor que y');\n} else {\n  console.log('x es menor o igual que y');\n}";
+        window.location.href="septimo_punto/index.html";
       break;
     case "8":
-      program = "Programa 8:\n\nvar frutas = ['manzana', 'pera', 'uva', 'naranja'];\n\nfor (var i = 0; i < frutas.length; i++) {\n  console.log(frutas[i]);\n}";
+        window.location.href="octavo_punto/index.html";
       break;
     default:
       program = "Seleccione una opción";
