@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Números pares e impares</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>Números pares e impares</h1>
     <form>
-        <label for="numero">Ingresa un número entero positivo:</label>
-        <input type="number" id="numero" name="numero" min="1" required>
-        <button type="submit">Identificar</button>
-        <br>
-        <button type="reset" id="resetear" onclick="resetearDivisibilidad()">Resetear</button>
-        <br>
-        <input type="button" class="volverbtn" onclick="history.back()" name="pagina principal" value="Regresar a menu">
+      <label for="numero">Ingresa un número entero positivo:</label>
+      <input type="number" id="numero" name="numero" min="1" required />
+      <button type="submit">Identificar</button>
+      <br />
+      <button type="reset" id="resetear" onclick="resetearDivisibilidad()">
+        Resetear
+      </button>
+      <br />
+      <input
+        type="button"
+        class="volverbtn"
+        onclick="history.back()"
+        name="pagina principal"
+        value="Regresar a menu"
+      />
     </form>
     <p id="resultado"></p>
-    <script src="script.js"></script>
+
     <script src="../js/jquery-3.6.4.min.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

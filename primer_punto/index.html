@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Contador de caracteres</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Contador de caracteres</h1>
-    <form>
-      <label for="texto">Ingrese su texto:</label>
-      <textarea id="texto" name="texto"></textarea>
-      <button type="submit">Contar caracteres</button>
-      <br>
-      <button type="reset" id="resetear" onclick="resetearDivisibilidad()">Resetear</button>
-      <br>
-      <input type="button" class="volverbtn" onclick="history.back()" name="pagina principal" value="Regresar a menu">
-    </form>
-    <section id="resultado"></section>
-    <script src="script.js"></script>
-    <script src="../js/jquery-3.6.4.min.js"></script>
-  </body>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <title>Contador de caracteres</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <h1>Contador de caracteres</h1>
+      <form>
+        <label for="texto">Ingrese su texto:</label>
+        <textarea id="texto" name="texto"></textarea>
+        <button type="submit">Contar caracteres</button>
+        <br />
+        <button type="reset" id="resetear" onclick="resetearDivisibilidad()">
+          Resetear
+        </button>
+        <br />
+        <input
+          type="button"
+          class="volverbtn"
+          onclick="history.back()"
+          name="pagina principal"
+          value="Regresar a menu"
+        />
+      </form>
+      <section id="resultado"></section>
+
+      <script src="../js/jquery-3.6.4.min.js"></script>
+      <script src="script.js"></script>
+    </body>
+  </html>
 </html>
