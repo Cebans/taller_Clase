@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="es">
 <html>
   <head>
     <meta charset="UTF-8">
@@ -11,8 +12,12 @@
       <label for="texto">Ingrese su texto:</label>
       <textarea id="texto" name="texto"></textarea>
       <button type="submit">Contar caracteres</button>
+      <br>
+      <button type="reset" id="resetear" onclick="resetearDivisibilidad()">Resetear</button>
+      <br>
+      <input type="button" onclick="history.back()" name="pagina principal" value="regresar a menu">
     </form>
-    <div id="resultado"></div>
+    <section id="resultado"></section>
     <script src="script.js"></script>
   </body>
 </html>

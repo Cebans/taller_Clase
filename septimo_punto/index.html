@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<html>
+  <head>
+<meta charset="UTF-8">
+    <title>Verificación de divisibilidad</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="container">
+      <h1>Verificación de divisibilidad</h1>
+      <form>
+        <label for="numA">Número A:</label>
+        <input type="number" id="numA" required>
+        <br>
+        <label for="numB">Número B:</label>
+        <input type="number" id="numB" required>
+        <br>
+        <button type="button" id="verificar" onclick="verificarDivisibilidad()">Verificar</button>
+        <br>
+        <button type="reset" id="resetear" onclick="resetearDivisibilidad()">Resetear</button>
+        <br>
+        <input type="button" onclick="history.back()" name="pagina principal" value="regresar a menu">
+      </form>
+      <section id="resultado"></section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
