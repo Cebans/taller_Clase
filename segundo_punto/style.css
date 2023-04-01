@@ -51,4 +51,13 @@ body {
     text-align: center;
     font-size: 24px;
   }
-  
+
+  .volverbtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #19ccb4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
